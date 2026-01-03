@@ -126,6 +126,11 @@ nav .nav-links a.selected{
     color: #303f9f;
 }
 
+.recent .header a:hover,
+.separator a:hover{
+    color: #1a237e;
+}
+
 .recent .posts{
     display: flex;
     justify-content: center;
