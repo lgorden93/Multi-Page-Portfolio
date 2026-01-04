@@ -143,18 +143,21 @@ nav .nav-links a.selected{
     width: 460px;
 }
 
-.recent .posts .post-item h3{
+.recent .posts .post-item h3,
+.content .post-list .post-item h3{
     font-size: 26px;
     margin-bottom: 18px;
 }
 
-.recent .posts .post-item .info{
+.recent .posts .post-item .info,
+.content .post-list .post-item .info{
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
 
-.recent .posts .post-item .info h5{
+.recent .posts .post-item .info h5,
+.content .post-list .post-item .info h5{
     font-size: 17.5px;
     font-weight: 400;
 }
@@ -257,7 +260,7 @@ footer p{
 }
 
 .page-title{
-    padding: 80px 234px 20px;
+    padding: 80px 380px 20px;
     width: 100%;
 }
 
@@ -335,3 +338,37 @@ footer p{
     color: #303f9f;
 }
 
+.content .container{
+    background-color: #dbedf2;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 970px;
+    border-radius: 20px;
+} 
+
+.content .container img{
+    width: 300px;
+}
+
+.content .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.content .container h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.content .container .about>p{
+    text-align: justify;
+}
+
+.content .container .about .email{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 14px;
+}
