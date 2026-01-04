@@ -372,3 +372,34 @@ footer p{
     margin-top: 30px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 1400px) {
+    
+    nav{
+        padding: 20px 60px;
+    }
+
+    .main{
+        padding: 0 60px;
+    }
+
+    .recent{
+        padding: 60px;
+    }
+
+    .featured,
+    .separator{
+        padding: 40px 60px 0;
+    }
+
+    .page-title{
+        padding: 80px 20px 20px;
+    }
+
+    .content .works-list .item img{
+        width: 200px
+    }
+
+    
+
+}
