@@ -260,7 +260,7 @@ footer p{
 }
 
 .page-title{
-    padding: 80px 380px 20px;
+    padding: 80px 234px 20px;
     width: 100%;
 }
 
@@ -393,13 +393,65 @@ footer p{
     }
 
     .page-title{
-        padding: 80px 20px 20px;
+        padding: 80px 60px 20px;
     }
 
-    .content .works-list .item img{
-        width: 200px
-    }
 
+
+}
+
+@media screen and (max-width: 1200px) {
     
+    nav{
+        padding: 20px 40px;
+    }
+
+    .main{
+        padding: 0 40px;
+    }
+
+    .main img{
+        width: 340px;
+        height: 340px;
+    }
+
+    .recent{
+        padding: 40px;
+    }
+
+    .featured,
+    .separator{
+        padding: 40px 40px 0;
+    }
+
+    .featured .item .details p,
+    .works-list .item .details p{
+        width: 100%;
+    }
+    
+    .content .work-info,
+    .content>p,
+    .content>img,
+    .content>h1,
+    .content>h2,
+    .content>h3,
+    .content .post-list .post-item,
+    .content .container{
+       width: 100%; 
+    }
+
+    .content .container img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .content .container h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content .container .about>p{
+        font-size: 14px;
+    }
 
 }
