@@ -455,3 +455,106 @@ footer p{
     }
 
 }
+
+@media screen and (max-width: 992px) {
+    
+     nav{
+        padding: 20px;
+    }
+
+    .main{
+        padding: 0 15px;
+    }
+
+    .main img{
+        width: 290px;
+        height: 290px;
+    }
+
+    .main .info h1{
+        font-size: 34px;
+    }
+
+.main .info p{
+    font-size: 15px;
+}
+
+.main .info button{
+    font-size: 15px;
+    padding: 8px 22px;
+}
+
+.recent{
+    padding: 40px 20px;
+}
+
+.recent .posts .post-item{
+    width: 100%;
+}
+
+.recent .posts .post-item h3,
+.content .post-list .post-item h3{
+    font-size: 20px;
+}
+
+.recent .posts .post-item .info h5,
+.content .post-list .post-item .info h5{
+    font-size: 14px;
+}
+
+.recent .posts .post-item p{
+    width: 100%;
+    font-size: 14px;
+}
+
+.featured,
+    .separator{
+        padding: 40px 20px 0;
+    }
+
+    .featured .item,
+    .works-list .item{
+        flex-direction: column;
+        padding: 0 20px 30px;
+    }
+
+    .featured .item img,
+    .works-list .item img{
+        width: 100%;
+        height: auto;
+    }
+
+    .featured .item .details h3,
+    .works-list .item .details h3{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .featured .item .details .item-info .year-badge,
+    .works-list .item .details .item-info .year-badge{
+        font-size: 12px;
+    }
+
+    .featured .item .details .item-info h4,
+    .works-list .item .details .item-info h4{
+        font-size: 15px;
+    }
+
+    .featured .item .details p,
+    .works-list .item .details p{
+        font-size: 14px;
+    }
+
+    .content{
+        padding: 30px 20px 60px;
+    }
+
+    .content .container h2{
+        font-size: 20px;
+    }
+
+    .content.container .about>p{
+        font-size: 13px;
+    }
+
+}
