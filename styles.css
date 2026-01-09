@@ -558,3 +558,53 @@ footer p{
     }
 
 }
+
+@media screen and (max-width: 768px) {
+    
+    nav{
+        justify-content: center;
+    }
+
+    nav .logo{
+        display: none;
+    }
+
+    .main{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 40px 0;
+        height: auto;
+    }
+
+    .main .info h1{
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+    .main .info p{
+        margin-bottom: 16px;
+    }
+
+    .main .info button{
+        padding: 6px 20px;
+        font-size: 13px;
+    }
+
+    .main{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    .recent .posts,
+    .content .container{
+        flex-direction: column;
+    }
+
+    .content .container img{
+        width: 100%;
+        height: auto;
+    }
+
+}
